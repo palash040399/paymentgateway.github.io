@@ -1,0 +1,55 @@
+
+@font-face{
+    font-family: 'abc';
+    src: url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+}
+
+body{
+    background-image:url("bg2.jpg");
+    background-size:cover;
+    text-align:center;
+}
+
+
+body{
+   
+    box-shadow: 10px 10px 12px 2px rgba( 31, 38, 135, 0.37 );
+    border-radius:15px;
+    width:55%;
+    position:absolute;
+    margin-top:210px;
+    margin-left:370px;
+    align-items:center;
+}
+
+
+
+.mssg{
+    margin-left: 100px;
+    margin-bottom:30px;
+    font-family:'abc';
+    font-size: 20px;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 100px;
+
+}
+button{
+    border-radius: 50px;
+}
+.btn{
+    position:relative;
+    left:28%;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+button:hover{
+    background-color:rgb(23, 205, 231);
+}
+#smart-button-container{
+    padding: auto;
+    background-color: rgba(176,176,176,0.5);
+    border-radius: 15px;
+}
